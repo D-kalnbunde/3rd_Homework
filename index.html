@@ -7,9 +7,38 @@
     <title>FIZZ BUZZ</title>
     <script src="/scripts/mainJS.js" defer></script>
     <link rel="stylesheet" href="/styles/styles.css">
-    
+    <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
+    <header>
+        <h1>FIZZ BUZZ</h1>
+        <div class=range>
+            <h2>SET THE RANGE</h2>
+            <input type="number" class="range" id="start-value" min="1" max="100" value="1">
+            <p>to</p>
+            <input type="number" class="range" id="end-value" min="1" max="100" value="100">
+            <br>
+            <button class="btn-range">SELECT</button>
+        </div>
+        <br>
+        <div class="values">
+            <h2>Change the values of Fizz and Buzz</h2>
+            <p> Fizz value: </p><input type="number" class="val" id="fizzval" min="1" max="100" value="3">
+            <p> Buzz value: </p><input type="number" class="val" id="buzzval" min="1" max="100" value="5">
+            <br>
+            <button class="btn-val">Change Values</button>
+        </div>
+        <br>
+        <div class="btns">
+            <h2>Choose separately</h2>
+            <button class="btn-fizz">FIZZ</button>
+            <button class="btn-buzz">BUZZ</button>
+            <button class="btn-fizzbuzz">FIZZBUZZ</button>
+            <button class="btn-reset">RESET</button>
+        </div>
+    </header>
+    <main class="main-wrapper">
+    </main>
 </body>
 </html>
