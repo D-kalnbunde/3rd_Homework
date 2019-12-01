@@ -164,4 +164,3 @@ function resetAll() {
     document.querySelector("#buzzval").value = "5";
     createDivs("main");
 }
-
